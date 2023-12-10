@@ -9,7 +9,6 @@ from MukeshRobot import pbot as app
 
 
 async def quotify(messages: list):
-    response = await arq.quotly(messages)
     if not response.ok:
         return [False, response.result]
     sticker = response.result
