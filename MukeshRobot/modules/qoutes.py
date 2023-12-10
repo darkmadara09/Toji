@@ -4,7 +4,6 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
 
-from MukeshRobot import arq
 from MukeshRobot.utils.errors import capture_err
 from MukeshRobot import pbot as app
 
